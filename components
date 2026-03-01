@@ -1,0 +1,23 @@
+potentiometer:
+5V
+GND
+A0
+
+joystick:
+GND
+5V
+Vrx: A6
+Vry: A7
+Sw: D2
+
+servo_gripper: 
+RED: 5V
+YELLOW: D12
+BROWN: GND
+
+step down: 5.5V-out
+in+ battery-red
+in- battery-black
+
+out+ servos
+out- common ground with arduino+servos
