@@ -3,16 +3,33 @@ potentiometer:
 GND
 A0
 
-joystick:
+joystick_length:
 GND
 5V
 Vrx: A6
 Vry: A7
 Sw: D2
 
+joystick_height:
+GND
+5V
+Vrx: A4
+Vry: A5
+Sw: D3
+
 servo_gripper: 
 RED: 5V
 YELLOW: D12
+BROWN: GND
+
+servo_length:
+RED: 5V
+YELLOW: D11
+BROWN: GND
+
+servo_height:
+RED: 5V
+YELLOW: D10
 BROWN: GND
 
 step down: 5.5V-out
