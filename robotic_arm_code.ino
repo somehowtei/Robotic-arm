@@ -5,9 +5,9 @@ Servo servo_gripper;
 int servo_gripper_pin=12;
 float servo_gripper_val;
 
-int joystickx_length_pin=A6;
-int joysticky_length_pin=A7;
-float joystickx_length_val;
+int joystickx_length_pin=A7;
+int joysticky_length_pin=A6;
+float joysticky_length_val;
 Servo servo_length;
 int servo_length_pin=11;
 float servo_length_val;
@@ -25,7 +25,7 @@ void setup() {
   pinMode(potentiometer_pin, INPUT);
   servo_gripper.attach(servo_gripper_pin);
 
-  pinMode(joystickx_length_pin, INPUT);
+  pinMode(joysticky_length_pin, INPUT);
   servo_length.attach(servo_length_pin);
 
   pinMode(joystickx_height_pin, INPUT);
@@ -43,8 +43,8 @@ void loop() {
     servo_gripper.write(servo_gripper_val);
   }
 
-  joystickx_length_val=analogRead(joystickx_length_pin);
-  servo_length_val=(180./1023)*joystickx_length_val;
+  joysticky_length_val=analogRead(joysticky_length_pin);
+  servo_length_val=(180./1023)*joysticky_length_val;
   Serial.print(servo_length_val);
   Serial.print(" ");
   servo_length.write(servo_length_val);
