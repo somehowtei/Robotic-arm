@@ -6,8 +6,8 @@ A0
 joystick_length:
 GND
 5V
-Vrx: A6
-Vry: A7
+Vrx: A7
+Vry: A8
 Sw: D2
 
 joystick_height:
