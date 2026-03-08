@@ -14,7 +14,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  joysticky_val=analogRead(joysticky_length_pin);
+  joysticky_length_val=analogRead(joysticky_length_pin);
   servo_length_val=(180./1023)*joysticky_length_val;
   Serial.println(servo_length_val);
   servo_length.write(servo_length_val);
