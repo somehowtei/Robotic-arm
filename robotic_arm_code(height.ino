@@ -1,6 +1,6 @@
 #include <Servo.h>
 int joystickx_height_pin=A4;
-int joysticky_height_pin=A5;
+int joysticky_height_pin=A3;
 float joystickx_height_val;
 Servo servo_height;
 int servo_height_pin=10;
