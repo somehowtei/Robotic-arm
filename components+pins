@@ -32,6 +32,11 @@ RED: 5V
 YELLOW: D10
 BROWN: GND
 
+servo_base:
+RED: 5V
+YELLOW: D9
+BROWN: GND
+
 step down: 5.5V-out
 in+ battery-red
 in- battery-black
