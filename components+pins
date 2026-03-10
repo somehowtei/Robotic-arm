@@ -3,14 +3,14 @@ potentiometer:
 GND
 A0
 
-joystick_length:
+joystick:
 GND
 5V
 Vrx: A7
 Vry: A6
 Sw: D2
 
-joystick_height:
+joystick_base:
 GND
 5V
 Vrx: A4
