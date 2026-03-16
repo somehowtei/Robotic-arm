@@ -1,4 +1,5 @@
 #include <VarSpeedServo.h>
+
 int joysticky_pin=A6;
 float joysticky_val;
 VarSpeedServo servo_length;
@@ -9,7 +10,6 @@ int speed=40;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-
   pinMode(joysticky_pin, INPUT);
   servo_length.attach(servo_length_pin);
 }
