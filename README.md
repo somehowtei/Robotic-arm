@@ -1,7 +1,7 @@
 
-# Arduino 4-DOF Robotic Arm
+# Arduino 3-DOF Robotic Arm
 
-A joystick-controlled **4 Degrees of Freedom (4-DOF) robotic arm** built using Arduino and servo motors.
+A joystick-controlled **3 Degrees of Freedom (3-DOF) robotic arm** built using Arduino and servo motors.
 The system allows intuitive real-time control of the arm’s **base rotation, extension, height, and gripper** using analog inputs.
 
 This project was designed as a **learning platform for robotics, embedded systems, and mechatronics**, demonstrating how multiple servos can be coordinated through analog control.
@@ -18,7 +18,7 @@ Example:
 
 # Features
 
-* 4 Degrees of Freedom robotic arm
+* 3 Degrees of Freedom robotic arm
 * Real-time joystick control
 * Smooth servo motion using the `VarSpeedServo` library
 * Independent control of:
