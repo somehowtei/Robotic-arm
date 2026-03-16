@@ -1,11 +1,10 @@
-#include <Servo.h>
-
+#include <VarSpeedServo.h>
 int potentiometer_pin=A0;
 int potentiometer_val;
-Servo servo_gripper;
+VarSpeedServo servo_gripper;
 int servo_gripper_pin=12;
 int servo_gripper_val;
-
+int speedgripper=255;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
@@ -20,8 +19,7 @@ void loop() {
   Serial.println(servo_gripper_val);
   if(servo_gripper_val<90)
   {
-    servo_gripper.write(servo_gripper_val);
-    
+    servo_gripper.write(servo_gripper_val, speedgripper, false);
   }
   delay(10);
 }
