@@ -5,12 +5,11 @@ int joysticky_base_val;
 VarSpeedServo servo_base;
 int servo_base_pin=9;
 int servo_base_val;
-
 int speedjoystick=40;
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-
   pinMode(joysticky_base_pin, INPUT);
   servo_base.attach(servo_base_pin);
 }
