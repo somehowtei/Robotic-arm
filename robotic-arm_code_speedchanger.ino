@@ -6,9 +6,9 @@ VarSpeedServo servo_gripper;
 int servo_gripper_pin=12;
 int servo_gripper_val;
 
-int joystickx_pin=A7;
-int joysticky_pin=A6;
-int joystickx_val;
+int joystickx_pin=A7; //HEIGHT
+int joysticky_pin=A6; //LENGTH
+int joystickx_val; 
 int joysticky_val;
 VarSpeedServo servo_length;
 int servo_length_pin=11;
