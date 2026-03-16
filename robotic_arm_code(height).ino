@@ -10,7 +10,6 @@ int speed=40;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-
   pinMode(joystickx_pin, INPUT);
   servo_height.attach(servo_height_pin);
 }
