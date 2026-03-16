@@ -34,13 +34,15 @@ Example:
 
 # Hardware Components
 
-* Arduino (Nano / Uno compatible)
-* 4x Servo Motors
+* Arduino Nano
+* 3x MG996R Servo Motors
+* 1x MG90S Servo Motor
 * 1x Analog Joystick (2 axes)
 * 1x Additional joystick axis
 * 1x Potentiometer (gripper control)
-* External power supply for servos
-* Robotic arm structure (3D printed or custom-built)
+* External power supply for servos(2x 18650 Li-ion batteries)
+* Step down buck converter 8A
+* Robotic arm structure (3D printed)
 
 ---
 
