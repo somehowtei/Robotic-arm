@@ -1,5 +1,5 @@
 
-# Arduino 3-DOF Robotic Arm
+# 3-DOF Robotic Arm
 
 A joystick-controlled **3 Degrees of Freedom (3-DOF) robotic arm** built using Arduino and servo motors.
 The system allows intuitive real-time control of the arm’s **base rotation, extension, height, and gripper** using analog inputs.
