@@ -27,9 +27,7 @@ Example:
   * Arm height
   * Arm extension
   * Gripper
-* Simple and low-cost hardware setup
-* Easily expandable for automation or wireless control
-
+  * 
 ---
 
 # Hardware Components
@@ -66,8 +64,6 @@ Example:
 The project uses the following Arduino library:
 
 * **VarSpeedServo** – allows speed-controlled servo movement for smoother robotic motion.
-
-Install through the Arduino Library Manager or manually.
 
 ---
 
