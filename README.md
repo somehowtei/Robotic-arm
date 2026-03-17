@@ -27,7 +27,7 @@ Example:
   * Arm height
   * Arm extension
   * Gripper
-  * 
+
 ---
 
 # Hardware Components
