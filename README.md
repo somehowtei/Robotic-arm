@@ -13,7 +13,7 @@ This project was designed as a **learning platform for robotics, embedded system
 Example:
 ![IMG_4328](https://github.com/user-attachments/assets/eeb30089-5734-4c00-9ac2-0cb803940f70)
 
-
+Video: https://youtu.be/hdqUqBugDXY?si=MgnyzY_AWz8I8Ra-
 
 ---
 
