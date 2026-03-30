@@ -3,7 +3,7 @@ potentiometer:
 GND
 A0
 
-joystick:
+joystick_length_height:
 GND
 5V
 Vrx: A7
