@@ -99,12 +99,10 @@ Main tasks performed in the program:
 
 Possible upgrades for the project:
 
-* Inverse kinematics control
 * Bluetooth / WiFi remote control
-* Preset positions and motion sequences
-* Sensor feedback
 * Computer vision integration
 * Autonomous object manipulation
+* Sensor feedback
 
 ---
 
