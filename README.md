@@ -1,5 +1,5 @@
 
-# 4-DOF Robotic Arm
+# 4-DOF Palletizing Robotic Arm
 
 A joystick-controlled **4 Degrees of Freedom (4-DOF) robotic arm** built using Arduino and servo motors.
 The system allows intuitive real-time control of the arm’s **base rotation, extension, height, and gripper** using analog inputs.
