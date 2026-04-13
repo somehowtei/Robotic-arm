@@ -7,25 +7,25 @@ int joystick_close=3;
 int joystick_close_val;
 
 VarSpeedServo servo_gripper;
-int servo_gripper_pin=12;
+int servo_gripper_pin=11;
 int servo_gripper_val;
 
-int joystickx_pin=A7;
-int joysticky_pin=A6;
+int joystickx_pin=A6;
+int joysticky_pin=A7;
 int joystickx_val;
 int joysticky_val;
 VarSpeedServo servo_length;
-int servo_length_pin=11;
+int servo_length_pin=7;
 int servo_length_val;
 
-int joysticky_base_pin=A5;
+int joysticky_base_pin=A1;
 int joysticky_base_val;
 VarSpeedServo servo_base;
-int servo_base_pin=9;
+int servo_base_pin=12;
 int servo_base_val;
 
 VarSpeedServo servo_height;
-int servo_height_pin=10;
+int servo_height_pin=6;
 int servo_height_val;
 
 int speedjoystick=50;
